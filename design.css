@@ -8,12 +8,95 @@ h2 {font-size: 25;
 	color: white;
 	margin-left: 150px;
 	margin-right: 150px;
-	font-family: Helvetica, sans-serif;)
+	font-family: Helvetica, sans-serif;
+}
+h3 {font-size: 25;
+	color: white;
+	margin-left: 150px;
+	margin-right: 150px;
+	font-family: Helvetica, sans-serif;
+}
+p {font-size: 25;
+	color:white;
+	margin-left: 150px;
+	margin-right: 150px;
+	font-family: Helvetica, sans-serif;
+}
+img {margin-top: 200px;
+	margin-left: 150px;
+	margin-right: 150px;
+	height: 50px;
+}
+form {margin-top: 0px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+input[type=text]{height:35px;
+				font-size: 22.5;
+				font-family: Helvetica, sans-serif;
+}
+input[type=submit]{height:35px;
+				font-size: 22;
+				font-family: Helvetica, sans-serif;
+				display: inline;
+				margin: auto;
 }
 body {background-color: black;
+	margin-bottom: 200px;
+}
+table {margin-left: 150px;
+	margin-right: 150px;
+	color:white;
+	font-size: 22.5;
+	font-family: Helvetica, sans-serif;
+	width: 50%;
+	text-align: left;
 }
 .overide{line-height: 0px;
 		margin-top: 250px;
+}
+.reducedfont{font-size: 50;
+			line-height: 0px;
+}
+.nolineheight{line-height: 0px;
+}
+.mediumfont{font-size: 22.5;
+			line-height: 0px;
+}
+.smallfont{font-size:15;
+			line-height:0px;
+}
+.img2{margin-top: 175px;
+	margin-left: 95px;
+	margin-right: 95px;
+	height: 100px;
+}
+.img3{margin-top: 175px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 50px;
+	height: 100px;
+}
+.img4{margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	height: 500px	;
+}
+.icon{margin-top: 0px;
+	margin-left: 150px;
+	margin-right: 150px;
+	height: 150px;
+}
+.inline{display: inline;
+		font-size: 22.5;
+		line-height: 0px;
+}
+#one{
+	line-height: 0px;
+}
+#two{line-height: 0px;
+margin-top: 75px;
 }
 a:link { color: #0066CC;
 		text-decoration: none;
@@ -23,6 +106,21 @@ a:active { color: #0066CC;
 a:visited { color: #0066CC;
 }
 a:hover { color: white;
+}
+.grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: black;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            padding: 0px;
+}
+.grid-item {
+            background-color: black;
+            border: 1px solid black;
+            padding: 0px;
+            font-size: 25px;
+            text-align: center;
 }
 
 #menu__toggle {
