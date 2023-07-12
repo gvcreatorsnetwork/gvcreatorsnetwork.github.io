@@ -81,7 +81,13 @@ table {
     font-size: 50;
     line-height: 0px;
 }
-
+.reducedfont2 {
+    font-size: 50;
+    line-height: 0px;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
 .nolineheight {
     line-height: 0px;
 }
