@@ -129,12 +129,16 @@ table {
 .icon2 {
     margin-top: 0px;
     height: 150px;
+	margin-left: 125px
 }
 
 .inline {
     display: inline;
     font-size: 22.5;
     line-height: 0px;
+}
+.inline2 {display: inline;
+		font-size: 15;
 }
 
 #one {
@@ -167,7 +171,7 @@ a:hover {
     display: grid;
     grid-column: 3;
     background-color: black;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 25% 25% 25%;
     padding-bottom: 50px;
     padding-top: 50px;
     justify-content: space-evenly;
