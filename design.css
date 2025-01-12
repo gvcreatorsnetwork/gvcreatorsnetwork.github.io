@@ -44,6 +44,14 @@ img {
     height: 250px;
 }
 
+.bigphoto1 {
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 450px;
+}
+
+
 form {
     margin-top: 0px;
     margin-left: 150px;
